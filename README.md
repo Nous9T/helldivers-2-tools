@@ -97,7 +97,7 @@ Notice that the loadouts configuration does not list each keypress like the stra
 
 If we break down the keychord above for RECON1 here is what will happen:
 
-Spacebar, Down x8, Spacebar, Down x3, Right x2, Spacebar, Left x2, Down x3, Spacebar, Down x1, Right x1, Spacebar, Right x2, Spacebar
+Spacebar, Down x8, Spacebar, Down x3, Right x2, Spacebar, Left x2, Down x3, Spacebar, Down x1, Right x1, Spacebar, Right x1, Spacebar, Right x2, Spacebar
 
 ![Loadout Select Demo](./resources/loadout-select-example.gif)
 
@@ -165,6 +165,7 @@ Little to no error checking implemented. Ensure proper functioning with the foll
 - Keychords, Routes, etc should be separated with a ','
 - Keychords, Routes, Loadout Stratagem list will always be at least 2 chords long (error on single chord or no ',')
 - Don't add leading or trailing ',' to the lists for the moment
+
 
 
 
