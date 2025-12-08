@@ -376,9 +376,9 @@ GetValueIndexFromArray(MyArray, SearchValue) {
 ConvertArrayToDelimitedString(ArgsArray, Delim := ',') {
 	OutputString := ""
 	For Index, Value In ArgsArray {
-	   OutputString .= "," . Value
+	   OutputString .= Delim . Value
 	}
-	OutputString := Trim(OutputString, ",")
+	OutputString := Trim(OutputString, Delim)
 	Return OutputString
 }
 
@@ -409,3 +409,4 @@ GetListviewRowValues(LvName, LvFields, RowNumber) {
 	}
 	Return KeyVals
 }
+
